@@ -15,3 +15,4 @@ public class AboutPage extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 }
+//test :)
