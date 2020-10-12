@@ -59,3 +59,32 @@ back twice in under 2 seconds to successfully exit the application.
 - The apps colors are in line with University of Debrecen (my university)
 colors - FFAD05 and 004532 (Hex).
 - The logo was designed by my friend Juanita.
+
+## Hierarchy
+
+-------------------------------------
+
+## Building the application
+- I started with making an app which simply analysis a hard-coded image from the
+drawable folder, connects to the Azure API and shows the result. I called this
+“Image Analyser”. [Repo](https://github.com/Purefekt/Image-Analyser-hard-coded-image)
+- Then I made another app which lets the user pick an image from the gallery and
+then displays the image using the image’s URI. I called this “Pick Image from
+Gallery”. [Repo](https://github.com/Purefekt/Pick-image-from-gallery)
+- Then I made an app which detects shakes. All it does it opens a new activity
+whenever the phone is shaken. I called this “Shake Detector”. [Repo](https://github.com/Purefekt/Shake-detector)
+- Finally, I tried to merge the Image Analyser and the Pick Image from Gallery into
+a test app which I simply called “testt”. I had many issues in this version but I was
+finally able to debug it and in the end I implemented the shake detection into
+the testt app, added some more basic activities like “NotWorking” activity and
+“AboutPage” activity and my app was ready.
+
+## Issues faces
+My testt app kept crashing any time I chose an image and ran the
+analyser. The image analyser kept failing and crashing because it had a null pointer
+exception. At this point my image analyser was running inside onCreate method and my
+pick image from gallery method was outside onCreate. The pick image from gallery
+method was also only getting the image URI. So I placed the image analyser outside
+onCreate and inside pick image from gallery method, I then created a variable bmp
+which got the bitmap of the chosen image instead of the URI and then I passed that
+bitmap to the image analyser and it finally worked.
