@@ -49,13 +49,13 @@ This activity has a scrollview with a linear layout inside it. It
 contains many TextView in a vertical linear order with some errors the user
 might encounter.
 #### Miscellaneous
--The app uses internet and external storage permissions.
--All pages are locked to portrait mode as they malfunction in landscape
+- The app uses internet and external storage permissions.
+- All pages are locked to portrait mode as they malfunction in landscape
 mode.
--If the API is unable to detect the image, then it gives a toast message
+- If the API is unable to detect the image, then it gives a toast message
 saying, “Sorry I can’t understand this image… Blame – Veer Singh!”
--The MainActivity has an exit warning which prompts the user to press
+- The MainActivity has an exit warning which prompts the user to press
 back twice in under 2 seconds to successfully exit the application.
--The apps colors are in line with University of Debrecen (my university)
+- The apps colors are in line with University of Debrecen (my university)
 colors - FFAD05 and 004532 (Hex).
--The logo was designed by my friend Juanita.
+- The logo was designed by my friend Juanita.
