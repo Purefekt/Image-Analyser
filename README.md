@@ -20,10 +20,10 @@ sent to Azure computers.
 implemented in a TextView.
 
 ## Details about the application
-### HomeActivity
+#### HomeActivity
 This is the splash screen and shows the logo of my app and the
 version code for 2 seconds before moving on to the MainActivity.
-### MainActivity
+#### MainActivity
 The MainActivity consists of a TextView which tells the user some
 basic information. Followed by a Button which lets the user to move on to the 
 Veer Singh CR97JH
