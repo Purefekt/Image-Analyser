@@ -46,8 +46,8 @@ public class Page2 extends AppCompatActivity {
     //Image recognition
     Button btnProcess;
     TextView txtResult;
-    private final String API_KEY = "b3705ed903fe4a2d9512f4aceb5a8f04";
-    private final String API_LINK = "https://veersinghunideb.cognitiveservices.azure.com/vision/v1.0";
+    private final String API_KEY = "9ca793c083a1459eaf0d5699ef695c88";
+    private final String API_LINK = "https://veerapp.cognitiveservices.azure.com/vision/v1.0";
     VisionServiceClient visionServiceClient = new VisionServiceRestClient(API_KEY, API_LINK);
 
     //Not working?
