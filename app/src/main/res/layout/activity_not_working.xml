@@ -79,7 +79,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="6)For any other issues please write an email to veer-singh@mailbox.unideb.hu."
+                android:text="6)For any other issues please send an email to veersingh230799@gmail.com"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="24sp"
                 android:typeface="monospace" />
