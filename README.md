@@ -75,7 +75,7 @@ colors - FFAD05 and 004532 (Hex).
 ## Hierarchy
 
 <p align="center">
-  <img src="hierarchy.jpg">
+  <img src="[1]Assets/hierarchy.jpg">
 </p>
 
 ## Building the application
