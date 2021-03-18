@@ -81,12 +81,12 @@ colors - FFAD05 and 004532 (Hex).
 ## Building the application
 - I started with making an app which simply analysis a hard-coded image from the
 drawable folder, connects to the Azure API and shows the result. I called this
-“Image Analyser”. [Repo](https://github.com/Purefekt/Image-Analyser-hard-coded-image)
+“Image Analyser”.
 - Then I made another app which lets the user pick an image from the gallery and
 then displays the image using the image’s URI. I called this “Pick Image from
-Gallery”. [Repo](https://github.com/Purefekt/Pick-image-from-gallery)
+Gallery”.
 - Then I made an app which detects shakes. All it does it opens a new activity
-whenever the phone is shaken. I called this “Shake Detector”. [Repo](https://github.com/Purefekt/Shake-detector)
+whenever the phone is shaken. I called this “Shake Detector”.
 - Finally, I tried to merge the Image Analyser and the Pick Image from Gallery into
 a test app which I simply called “testt”. I had many issues in this version but I was
 finally able to debug it and in the end I implemented the shake detection into
