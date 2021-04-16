@@ -40,7 +40,7 @@
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
         android:typeface="monospace"
-        android:text="Welcome to Veer's Image analyser. This app allows the user to pick an image from the gallery and then it tries to identify some basic information about the image. [This is Veer Singh CR97JH project for Mobile Solutions 2020]"
+        android:text="Welcome to Veer's Image analyser. This app allows the user to pick an image from the gallery and then it tries to identify some basic information about the image."
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -37,7 +37,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
         android:gravity="center_horizontal"
-        android:text="Veer Singh is pursuing BSc. Computer Science Engineering at University of Debrecen and is currently in his 3rd year (5th semester). He loves technology and programming."
+        android:text="Veer Singh is pursuing BSc. Computer Science Engineering at University of Debrecen and is currently in his final year (6th semester). He loves technology and programming."
         android:textColor="#000000"
         android:textSize="14sp"
         android:typeface="monospace"
