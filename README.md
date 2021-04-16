@@ -3,14 +3,6 @@
 ## Google Play store download link
 [DOWNLOAD LINK](https://play.google.com/store/apps/details?id=unideb.hu.veersingh.mobilesolutions)
 
-## Table of contents
-1. [Project idea](https://github.com/Purefekt/Image-Analyser-ReadMe#project-idea)
-2. [Approach](https://github.com/Purefekt/Image-Analyser-ReadMe#approach)
-3. [Details about the application](https://github.com/Purefekt/Image-Analyser-ReadMe#details-about-the-application)
-4. [Hierarchy](https://github.com/Purefekt/Image-Analyser-ReadMe#hierarchy)
-5. [Building the application](https://github.com/Purefekt/Image-Analyser-ReadMe#building-the-application)
-6. [Issues faced](https://github.com/Purefekt/Image-Analyser-ReadMe#issues-faced)
-
 ## Project idea
 I wanted to make a simple app which detects basic elements in an image
 selected by the user
